@@ -85,7 +85,7 @@ export function ConnectedChannels({
         <button
           type="button"
           disabled
-          className="flex min-h-[160px] flex-col items-center justify-center gap-2 bg-black border border-dashed border-gray-600 p-4 text-center disabled:cursor-not-allowed disabled:opacity-60"
+          className="flex min-h-[160px] flex-col items-center justify-center gap-2 bg-[var(--dash-bg)] border border-dashed border-[var(--dash-border)] p-4 text-center disabled:cursor-not-allowed disabled:opacity-60"
         >
           <div className="flex flex-col items-center justify-center gap-2 border border-dashed border-gray-600">
             <Plus className="size-8 text-[var(--dash-muted)]" aria-hidden="true" />

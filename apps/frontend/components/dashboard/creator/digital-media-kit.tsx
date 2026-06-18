@@ -49,7 +49,7 @@ export function DigitalMediaKit({ mediaKit }: { mediaKit: MediaKit }) {
           className="object-cover"
         />
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent px-4 pt-8 pb-4">
-          <p className="text-sm font-bold text-white">{mediaKit.fileName}</p>
+          <p className="text-sm font-bold text-[var(--dash-heading)]">{mediaKit.fileName}</p>
           <p className="text-xs text-[var(--dash-muted)]">
             Last updated {mediaKit.lastUpdated}
           </p>
